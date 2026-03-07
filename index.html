@@ -152,6 +152,25 @@
             transition: var(--transition);
         }
 
+
+            .social-icons {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            border-right: 1px solid var(--stone-200);
+            padding-right: 20px;
+        }
+        .social-icons a {
+            color: var(--stone-500);
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+        }
+        .social-icons a:hover {
+            color: var(--stone-900);
+            transform: translateY(-2px);
+        }
+
         /* --- КОРЗИНА (Drawer & Overlay) --- */
         .cart-overlay {
             position: fixed;
